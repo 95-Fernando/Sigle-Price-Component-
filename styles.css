@@ -1,0 +1,112 @@
+/*
+Colores
+  cyan: hsl(179, 62%, 43%)
+  lime: hsl(71, 73%, 54%)
+  grey: hsl(204, 43%, 93%)
+  light-blue: hsl(218, 22%, 67%)
+Fuente de la página
+  https://fonts.google.com/specimen/Karla
+  Estilos 200 y 400
+*/
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #333;
+    color: #fff;
+    font-family: 'Karla', sans-serif;
+  }
+  
+  .container{
+    width: 850px;
+    margin: 30px auto;
+
+  }
+
+  .advertisings{
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  .advertising_one{
+    width: 800px;
+    height: 230px;
+    background-color: white;
+
+  }
+
+  .advertising_two{
+    background-color: hsl(179, 62%, 43%);
+  }
+
+  .advertising_three{
+    background-color: hsl(179, 74%, 27%);
+    margin-left: -4px;
+
+  }
+
+  .advertising_two,
+  .advertising_three{
+    width: 400px;
+    height: 270px;
+  }
+
+  h1,
+  h2,
+  h3,
+  p, 
+  .button{
+    margin: 25px;
+  }
+
+
+  .title_one{
+    font-size: 2em;
+    color: hsl(179, 62%, 43%);
+  }
+
+  .subtitle_one{
+    font-weight: 400;
+    color: hsl(71, 73%, 54%);
+  }
+
+
+  .text_one{
+    color: hsl(218, 22%, 67%);
+  }
+
+  .title_two
+  .title_three{
+    margin-top:50px;
+  }
+
+  .price{
+    font-size: 2em;
+    letter-spacing: 3px;
+  }
+
+  .period{
+    font-size: .8em;
+    letter-spacing: initial;
+    font-weight: 400;
+    opacity: .5;
+  }
+
+  .button{
+    background-color: hsl(71, 73%, 54%);
+    text-decoration: none;
+    color: inherit;
+    padding: 10px 145px;
+    border-radius: 8px;
+    box-shadow: 5px 5px 5px rgb(0 0 0 / .1);
+  }
+
+  .list{
+    font-weight: lighter;
+    list-style: none;
+    margin-left: -15px;
+  }
+
+
